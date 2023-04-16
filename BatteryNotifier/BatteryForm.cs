@@ -45,6 +45,7 @@ public partial class BatteryForm : Form
                 {
                     var popup = new BatteryNotification(batteryLevel, true);
                     popup.ShowDialog();
+                    this.Close();
                 }
             }
             timer1.Start();

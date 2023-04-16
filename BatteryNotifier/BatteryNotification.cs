@@ -16,7 +16,7 @@ namespace BatteryInformer.UI
         public BatteryNotification(int value, bool isAutoClose)
         {
             InitializeComponent();
-            lblValue.Text = $"Your Battery Level is {value}. Please Disconnet your charger.";
+            lblValue.Text = $"Your Battery Level is {value}. Please disconnect the charger.";
             timer.Interval = 10000;
             timerHard.Interval = 1000;
             if (isAutoClose)
