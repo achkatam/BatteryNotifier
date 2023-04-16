@@ -10,3 +10,7 @@ Sends notification to prevent overcharging
  - In case you do not unplug sends notification over 95%
 
 - In case the battery level reaches 30% and 20% lets you know it's time for charging.
+
+### Downloading and installation
+
+#### Simply download the ZIP file and extract it. Find the .exe file in bin folder and run it.
